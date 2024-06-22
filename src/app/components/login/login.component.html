@@ -1,6 +1,7 @@
 <div class="loginpage  mt-5">
     <div class="card flex justify-content-center ">
-        <p-card header="Advanced Card" subheader="Card Subheader" class="login-card" [style]="{ width: '360px' }">
+       
+        <p-card header="Just Referral" subheader="" class="login-card" [style]="{ width: '360px' }">
             <ng-template pTemplate="header">
                <h2 class=" flex justify-content-center">Login</h2>
             </ng-template>
@@ -11,17 +12,16 @@
                         <p-inputIcon styleClass="pi pi-user" />
                         <input type="text" [(ngModel)]="value1" pInputText placeholder="Enter The Email" />
                     </p-iconField>
-                    <p-password 
-                    [(ngModel)]="value2"
-                    promptLabel="Choose a password" 
-                    weakLabel="Too simple" 
-                    mediumLabel="Average complexity" 
-                    strongLabel="Complex password" />
+                    <p-iconField iconPosition="left">
+                        <p-inputIcon styleClass="pi pi-key" />
+                        <input type="password" [(ngModel)]="value2" pInputText placeholder="Enter The password" />
+                    </p-iconField>
+                  
                 </div>
             </div>
             <ng-template pTemplate="footer">
                 <div class="flex gap-3 mt-1">
-                    <p-button label="Login" onClick="loginclick()" class="w-full" styleClass="w-full" />
+                    <p-button label="Login" (onClick)="loginclick()" class="w-full" styleClass="w-full" />
                 </div>
             </ng-template>
         </p-card>
