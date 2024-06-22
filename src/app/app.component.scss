@@ -1,0 +1,39 @@
+header {
+    background-color: white;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0px 2px 18px black;
+    z-index: 6;
+    text-align: center;
+    align-items: center;
+    .logo{
+        svg{
+            height: 22px;
+            width: 22px;
+            margin-right: 6px;
+        }
+    }
+    .menuitems{
+        // background: red;
+        p-menubar{
+            background: red;
+            .p-menubar{
+                background: transparent;
+                border: none;
+                
+            }
+            div{
+                background: none;
+            }
+        } 
+    }
+    p-avatar {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+}
+
+
+
