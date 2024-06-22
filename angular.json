@@ -30,7 +30,11 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "node_modules/primeng/resources/themes/lara-light-blue/theme.css",
+              "node_modules/primeng/resources/primeng.min.css",
+              "node_modules/primeflex/primeflex.css",
+              "src/styles.scss",
+              "src/assets/globle.scss"
             ],
             "scripts": [],
             "server": "src/main.server.ts",
@@ -95,10 +99,9 @@
               "src/assets"
             ],
             "styles": [
-              "node_modules/primeng/resources/themes/lara-light-blue/theme.css",
-              "node_modules/primeng/resources/primeng.min.css",
-              "node_modules/primeflex/primeflex.css",
-              "src/styles.scss"
+             
+              "src/styles.scss",
+              "src/assets/globle.scss"
             ],
             "scripts": []
           }

@@ -1,0 +1,49 @@
+
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+@import "primeicons/primeicons.css";
+/* You can add global styles to this file, and also import other style files */
+
+.p-menubar {
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+}
+.loginpage{
+    background-image: url(/assets/Images/loginbackground.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    /* background: red; */
+    /* background-color: red; */
+    height: 100vh;
+
+    .login-card{
+        margin: 100px;
+        box-shadow: 10px 13px 14px 1px;
+        background: transparent;
+        &.p-card{
+            background: transparent;
+            color: black;
+        }
+    }
+    .p-card {
+        background: transparent;
+        color: #4b5563;
+        box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+        border-radius: 6px;
+        .p-inputtext {
+            background: transparent;
+            // font-family: var(--font-family);
+            // font-feature-settings: var(--font-feature-settings, normal);
+            // font-size: 1rem;
+            // color: #4b5563;
+            // background: transparent;
+            // padding: 0.75rem 0.75rem;
+            // border: 1px solid #d1d5db;
+            // transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+            // appearance: none;
+            // border-radius: 6px;
+        }
+    }
+}

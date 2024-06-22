@@ -24,5 +24,10 @@ import { PasswordModule } from 'primeng/password';
 })
 export class LoginComponent {
   value!: string;
+  value1!:string
+  value2!:string
 
+  loginclick(){
+    
+  }
 }
